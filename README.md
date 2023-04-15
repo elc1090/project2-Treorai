@@ -1,6 +1,8 @@
-# Projeto2a: GitHub API e DOM Manipulation
+# Projeto2a: API Manipulation
 
 ### Deploy
+
+TBA
 
 ### Desenvolvedor
 
@@ -18,6 +20,7 @@ Wagner Chito
 
 ### Bastidores
 
+TBA
 
 ---
 Projeto entregue para a disciplina de [Desenvolvimento de Software para a Web](http://github.com/andreainfufsm/elc1090-2023a) em 2023a
