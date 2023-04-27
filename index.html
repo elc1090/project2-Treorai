@@ -12,7 +12,7 @@
     <script type="module" src="js/app.js"></script>
 </head>
 
-<body>
+<body background="assets/bg.jpg" style="background-repeat: no-repeat; background-attachment: fixed; background-size: cover;">
     <div class="mx-auto bg-light mt-5" style="width: 400px; border-radius: 1rem;">
         <div class="w-100">
             <div class="w-100" style="background: coral;border-radius: 0.5rem 0.5rem 0 0;">
@@ -22,16 +22,17 @@
 
                 <label for="usernameInput">User ID (e.g. 37218590)</label>
                 <div class="input-group mb-3">
-                    <input id="usernameInput" class="form-control mb-3" type="text" name="username" placeholder="Your brawlhalla user ID">
+                        <!-- User ID Input -->
+                    <input id="usernameInput" class="form-control mb-3" type="text" name="username" placeholder="Your brawlhalla user ID" title="Put your brawlhalla user id and hit Search, or convert your steam id hitting the button on the right.">
 
                     <div class="input-group-append">
                         <button class="btn btn-dark mb-3 text-light" id="searchRepoButton">
-                            Search
+                            ⥂ Steam ID
                         </button>
                     </div>
                 </div>
-
-                <div class="input-group mb-3">
+                    <!-- Profile Info -->
+                <div id="profilehead" class="input-group mb-3" style="align-items:start">
                     <div class="menu" style="display: inline-block; margin-left: 4px;">
                         <p>Username: </p>
                         <p>Level: </p>
@@ -45,8 +46,23 @@
                         <p id="miwins"></p>
                     </div>
                 </div>
-
-                <input type="submit" id="inputSubmit" class="btn btn-dark mb-3 w-100" value="Show Gallery">
+                    <!-- Search Button -->
+                <input type="submit" id="inputSubmit" class="btn btn-dark mb-3 w-100" value="Search Brawlhalla User ID">
+                <div id="sortfield">
+                    <!-- Sorting options -->
+                    <div style="display: inline-block">
+                        <input type="submit" id="sbName" class="btn btn-dark mb-3 w-100" value="⥮ A-Z">
+                    </div>
+                    <div style="display: inline-block">
+                        <input type="submit" id="sbLvl" class="btn btn-dark mb-3 w-100" value="⥮ Lv.">
+                    </div>
+                    <div style="display: inline-block">
+                        <input type="submit" id="sbKDA" class="btn btn-dark mb-3 w-100" value="⥮ KDA">
+                    </div>
+                    <div style="display: inline-block">
+                        <input type="submit" id="sbWR" class="btn btn-dark mb-3 w-100" value="⥮ Win%">
+                    </div>
+                </div>
             </form>
             <ul id="repoCommits" class="list-group mx-auto mb-5 w-100"></ul>
         </div>
