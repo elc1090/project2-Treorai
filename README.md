@@ -15,8 +15,9 @@ Wagner Chittó
 ### Créditos
 
 - Bootstrap
-- https://www.brawlhalla.com/c/uploads/2020/12/Arena_1920x1080.jpg
-- https://brawlhalla.fandom.com/wiki/Category:Icon_images
+- [Brawlhalla.com](https://www.brawlhalla.com/c/uploads/2020/12/Arena_1920x1080.jpg)
+- [Brawlhalla Wiki](https://brawlhalla.fandom.com/wiki/Category:Icon_images)
+- [Ubisoft Store](https://store.ubisoft.com/on/demandware.static/-/Sites-masterCatalog/default/dw9cdd06ce/images/pdpbanner/6077f2aa5cdf9a268c10d3dd_bg.jpg)
 
 ### Bastidores
 
@@ -30,14 +31,21 @@ Wagner Chittó
     - Sessão de desenvolvimento, adicionada funcionalidade de sorting, busca de userID pelo steamID e alguns incrementos no layout.
 
 - 25/04
-    - Sessão de desenvolvimento, integração com o replit.com para proteção da key.
+    - Sessão de desenvolvimento, integração com o replit.com para proteção da api_key.
 
 - 27/04
     - Finalização do Web Server que protege a API. Website funcional.
+    - Início da implementação dos gráficos.
 
-- Em andamento
-    - Gráficos de comparação e progresso
-    - Ranking global
+- 28/04
+    - Concluida a implementação dos gráficos.
+    - Ajustes no CSS.
+
+- 29/04
+    - Mudança no layout dos gráficos, bem como de cores e de tipos.
+    - Ajuste no corpo do site.
+    - Ajuste na pesquisa.
+    - Banner image.
 
 ---
 Projeto entregue para a disciplina de [Desenvolvimento de Software para a Web](http://github.com/andreainfufsm/elc1090-2023a) em 2023a

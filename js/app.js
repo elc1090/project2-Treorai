@@ -1,5 +1,6 @@
 import * as sorts from './sorts.js';
 import updateGallery from './updateGallery.js';
+import * as charts from './charts.js';
 let globaldata;
 let sortstate = false;
 
@@ -96,9 +97,9 @@ brawlForm.addEventListener('click', (e) => {
 
 function updateProfile(data){
     document.getElementById("miuser").textContent=data.name;
-    document.getElementById("milvl").textContent=data.level+` (${(data.xp_percentage*100).toFixed(2)}%)`;
+    document.getElementById("milvl").textContent=data.level;
     document.getElementById("migames").textContent=data.games;
-    document.getElementById("miwins").textContent=data.wins+` (${(100*data.wins/data.games).toFixed(2)}%)`;
+    document.getElementById("miwins").textContent=`${(100*data.wins/data.games).toFixed(2)}%`;
     }
 
 async function changeSortState(){
